@@ -1,0 +1,27 @@
+/* Dark Mode Global Styles */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background-color: #171717;
+  color: #f5f5f5;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #262626;
+  color: #f5f5f5;
+  border-color: #404040;
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  border-color: #737373;
+}
+
+.dark button {
+  transition: all 0.2s;
+}
